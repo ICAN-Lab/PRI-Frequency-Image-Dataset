@@ -9,6 +9,22 @@ Given received signal strength (RSS) measurements of the commodity WiFi receiver
 - A combination of neural network-based classifier and radio tomography imaging technique (RTI) is utilized to determine the presence of targets and their relative positions, respectively.
 
 #### Dataset type
+The data set format is VOC and the content is as follows:
+
+VOC Dataset Structure
+├── VOCdevkit
+│   ├── VOC2012
+│   │   ├── ImageSets
+│   │   │   ├── Segmentation
+│   │   │   │   ├── train.txt
+│   │   │   │   ├── val.txt
+│   │   │   │   ├── trainval.txt
+│   │   ├── JPEGImages
+│   │   │   ├── *.jpg    # All images
+│   │   ├── SegmentationClass
+│   │   │   ├── *.png    # All label images
+
+Among them, train.txt, val.txt, trainval.txt only need the picture name, no suffix or path is required.
 
 ## Authors & Contributors
 TO-ADE is authored by
