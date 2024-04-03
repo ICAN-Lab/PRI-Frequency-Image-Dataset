@@ -12,17 +12,17 @@ Given received signal strength (RSS) measurements of the commodity WiFi receiver
 The data set format is VOC and the content is as follows:
 
 VOC Dataset Structure
-├── VOCdevkit
-│   ├── VOC2012
-│   │   ├── ImageSets
-│   │   │   ├── Segmentation
-│   │   │   │   ├── train.txt
-│   │   │   │   ├── val.txt
-│   │   │   │   ├── trainval.txt
-│   │   ├── JPEGImages
-│   │   │   ├── *.jpg    # All images
-│   │   ├── SegmentationClass
-│   │   │   ├── *.png    # All label images
+##### ├── VOCdevkit
+##### │   ├── VOC2012
+##### │   │   ├── ImageSets
+##### │   │   │   ├── Segmentation
+##### │   │   │   │   ├── train.txt
+##### │   │   │   │   ├── val.txt
+##### │   │   │   │   ├── trainval.txt
+##### │   │   ├── JPEGImages
+##### │   │   │   ├── *.jpg    # All images
+##### │   │   ├── SegmentationClass
+##### │   │   │   ├── *.png    # All label images
 
 Among them, train.txt, val.txt, trainval.txt only need the picture name, no suffix or path is required.
 
