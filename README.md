@@ -24,6 +24,20 @@ VOC Dataset Structure
 ##### │   │   ├── SegmentationClass
 ##### │   │   │   ├── *.png    # All label images
 
+```javascript
+##### ├── VOCdevkit
+##### │   ├── VOC2012
+##### │   │   ├── ImageSets
+##### │   │   │   ├── Segmentation
+##### │   │   │   │   ├── train.txt
+##### │   │   │   │   ├── val.txt
+##### │   │   │   │   ├── trainval.txt
+##### │   │   ├── JPEGImages
+##### │   │   │   ├── *.jpg    # All images
+##### │   │   ├── SegmentationClass
+##### │   │   │   ├── *.png    # All label images
+```
+
 Among them, train.txt, val.txt, trainval.txt only need the picture name, no suffix or path is required.
 
 ## Authors & Contributors
