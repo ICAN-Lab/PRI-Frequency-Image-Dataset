@@ -30,7 +30,7 @@ VOC Dataset Structure
 Among them, train.txt, val.txt, trainval.txt only need the picture name, no suffix or path is required.
 
 ## Authors & Contributors
-TO-ADE is authored by
+PRI Frequency Image Dataset is authored by
 [WeiYi Wang],
 [YuJia Chen],
 from National Central University.
