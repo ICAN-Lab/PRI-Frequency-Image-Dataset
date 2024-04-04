@@ -17,6 +17,10 @@ The preprocessing of the "PRI Frequency Image" involves several steps to prepare
 
 <img src="Preview2.png" width="600" height="250">
 
+Our approach within a mixed scenario featuring both stagger PRI and constant PRI modulations radar.
+
+Here, emitters 1 to 3 are characterized by fixed PRI modulation, while emitter 4 exhibits stagger modulation. 
+
 | No        | PRI Mode          | PRI Value (µs)     |
 | --------- | ------------------| ------------------ |
 | 1         | Constant          | 1217               |
