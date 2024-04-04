@@ -17,8 +17,12 @@ The preprocessing of the "PRI Frequency Image" involves several steps to prepare
 
 <img src="Preview2.png" width="600" height="250">
 
-Given received signal strength (RSS) measurements of the commodity WiFi receiver at the UAV, UH-Sense can detect and localize moving human targets in the monitored area.
-- A combination of neural network-based classifier and radio tomography imaging technique (RTI) is utilized to determine the presence of targets and their relative positions, respectively.
+| No        | PRI Mode          | PRI Value (µs)     |
+| --------- | ------------------| ------------------ |
+| 1         | Constant          | 1217               |
+| 2         | Constant          | 1886               |
+| 3         | Constant          | 2137               |
+| 4         | Stagger           | {2055, 2169}       |
 
 #### Dataset type
 The data set format is VOC and the content is as follows:
